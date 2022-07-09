@@ -1,2 +1,5 @@
 # nCRYpt
 its a batch based malware similar in structure to wannacry
+
+I AM NOT LEGALLY RESPONSABLE FOR THE MISSUSE OF THIS BATCH FILE 
+I MADE IT FOR EDUCATIONAL/LEARNING POURPSES ONLY 
